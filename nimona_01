@@ -1,0 +1,32 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Learn & Explore</h1>
+    <h2>Mental Health Topics</h2>
+
+    <ul id="topics-list">
+        <li data-topic="anxiety">Anxiety</li>
+        <li data-topic="depression">Depression</li>
+        <li data-topic="stress">Stress</li>
+        <li data-topic="self-esteem">Self-esteem</li>
+        <li data-topic="relationships">Relationships</li>
+        <li data-topic="trauma">Trauma</li>
+        <li data-topic="body-image">Body Image</li>
+        <li data-topic="sleep">Sleep</li>
+        <li data-topic="addiction">Addiction</li>
+    </ul>
+
+    <div id="topic-content">
+        <!-- Content will be loaded here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>```

@@ -1,0 +1,67 @@
+css
+/* Basic styling - customize as needed */
+body {
+    font-family: sans-serif;
+}
+
+#topics-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Arrange list items horizontally */
+    flex-wrap: wrap; /* Wrap items to multiple lines if needed */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+#topics-list li {
+    padding: 15px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    flex: 1 0 200px; /* Each item takes at least 200px width */
+    text-align: center; /* Center text inside list items */
+    border-radius: 8px;  /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#topics-list li:hover {
+    background-color: lightblue; /* Change background color on hover */
+}
+
+#topic-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}css
+/* Basic styling - customize as needed */
+body {
+    font-family: sans-serif;
+}
+
+#topics-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Arrange list items horizontally */
+    flex-wrap: wrap; /* Wrap items to multiple lines if needed */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+#topics-list li {
+    padding: 15px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    flex: 1 0 200px; /* Each item takes at least 200px width */
+    text-align: center; /* Center text inside list items */
+    border-radius: 8px;  /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#topics-list li:hover {
+    background-color: lightblue; /* Change background color on hover */
+}
+
+#topic-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}

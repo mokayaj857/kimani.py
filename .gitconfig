@@ -1,0 +1,8 @@
+[gui]
+	recentrepo = C:/Users/ADMIN/Downloads
+[user]
+	email = mokayaj857@gmail.com
+	name = john mokaya
+[http]
+	postBuffer = 524288000
+	sslVerify = false
